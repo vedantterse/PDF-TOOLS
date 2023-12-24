@@ -1,0 +1,45 @@
+/* Resetting some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting a background color for the body */
+body {
+  background-image: url(/absolute/path/to/your/image/background.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+}
+
+
+/* Styling the home section */
+.home {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.home h2 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.home p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.home span {
+  color: #007bff; /* Adjust the color as needed */
+}
+
+/* Styling the navigation bar */
+/* Add your specific styling for the navigation bar here */
+
+/* You can remove the styles related to the preloader, as it's commented out in the HTML file */
+
+/* Additional styles for specific elements if needed */
